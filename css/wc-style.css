@@ -1,0 +1,79 @@
+.wcsTabsUl {  
+    float: left;
+    padding: 0;
+    margin: 0;
+    width: 20%;   
+}
+.wcsTab {
+    float: left;
+    width: 74%;
+    margin-left: 1.5%;
+    border: 2px dotted #eee;
+    padding: 1.5%;
+}
+.wcsTabs {   
+    width: 100%;
+    float: left;
+    display: inline-flex;
+    display: none;
+}
+.ui-corner-top a {
+    width: 86%;
+    float: left;
+    text-decoration: none;
+    color: #000;
+    margin: 2.5% 5%;
+    font-weight: bold;   
+    padding: 2.5%;
+    border: 1px dotted #ddd;
+    transition: all 0.1s;
+}
+.ui-state-hover a, .ui-state-active a {
+    text-align: center;
+    background-color: #eee;
+}
+
+
+.wcsOnOffLabel{
+    position: relative;
+}
+input.wcsonoff {
+    color: #ddd;
+    width: 20px;
+    height: 20px;
+    transition: all .5s;
+}
+input.wcsonoff::before {
+    background-color: #ddd !important;
+    position: absolute;
+    width: 14px !important;
+    height: 14px !important;
+    top: -2px;
+    left: -1px;
+}
+
+
+/************************/
+table.wcsSettingsWrap {
+    background: #fff;
+    width: 700px;
+    padding: 15px;
+    margin-top: 15px;
+}
+.wcsTabInner td {
+    position: relative;
+}
+.wp-picker-holder {
+    position: absolute;
+    z-index: 1;
+}
+
+.wcs_txt_size{
+    width: 50px;
+}
+
+.wcs_txt_px{
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
